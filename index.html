@@ -82,7 +82,7 @@
     </section>
 
     <!-- Category Section-->
-    <section class="mb-24 max-w-screen-xl mx-auto">
+    <section class="mb-24 max-w-screen-xl mx-auto py-8">
       <!-- Category Heading Section-->
       <div>
         <h1 class="text-3xl font-bold">Browse By Categories</h1>
@@ -300,11 +300,25 @@
         <h1 class="text-3xl font-bold">Everyday Low Price</h1>
       </div>
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 w-full mt-3">
-        <div class="bg-gradient-to-r from-purple-300 to-blue-300 h-96 rounded-lg lg:col-span-2">
-
+        <div class="bg-gradient-to-r from-purple-300 to-blue-300 h-96 rounded-lg lg:col-span-2 lg:flex lg:items-center overflow-hidden">
+          <div class="p-4 lg:py-10 lg:px-48">
+            <p>Under Price</p>
+            <h1 class="text-3xl font-bold">Pet Grooming Mitt</h1>
+            <p class="text-white text-lg">(Easy Hair Removal)</p>
+            <span class="text-5xl font-bold">$7.99</span>
+          </div>
+          <div class="">
+            <img class="h-60 pb-1 right-0" src="c1-assets/cute-dog-mid.png" alt="">
+          </div>
         </div>
-        <div class="bg-gradient-to-r from-amber-100 to-yellow-300 h-96 rounded-lg lg:">
-
+        <div class="relative bg-gradient-to-r from-amber-100 to-yellow-300 h-96 rounded-lg lg:">
+          <div class="absolute right-0 bottom-0">
+            <img class="h-60" src="c1-assets/cute-pet-mid.png" alt="">
+          </div>
+          <div class="py-10 px-10 relative">
+            <h1 class="text-3xl font-bold py-2">T-Shirt for Dogs</h1>
+            <span class="text-5xl font-bold text-amber-400">$7.99</span>
+          </div>
         </div>
       </div>
     </section>
@@ -315,10 +329,26 @@
 
 
   <!-- Footer Section -->
-  <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16">
+  <footer class="bg-orange-100 text-gray-700 px-4 md:px-16 py-40">
+
     <div class="w-9/12 mx-auto">
+
+      <div class="bg-rose-100 rounded-xl md:flex justify-center items-center -mt-96">
+
+        <div>
+          <img src="c1-assets/cute-pet-mid.png" alt="">
+        </div>
+        <div class="text-center md:text-left">
+          <h1 class="font-bold text-2xl mb-4">Get Pawsome News!</h1>
+          <p class="mb-2">Exclusive training tips, ticks, product deals and more.</p>
+          <div class="">
+            <input class="rounded-md h-10 w-56 px-2 mb-2" type="email" placeholder="Enter Email">
+          </div>
+          <button class="bg-yellow-300 rounded-xl h-10 w-28 font-semibold">Subscribe</button>
+        </div>
       
-      
+      </div>
+
       <!-- Links -->
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
 
